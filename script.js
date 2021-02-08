@@ -12,8 +12,6 @@ document.getElementById("song_search_btn").addEventListener("click", () => {
 
 function showSongs(songData) {
   const songs = songData.data;
-
-  console.log(songs);
   songs.forEach((song) => {
     const songName = song.title;
     const songArtistName = song.artist.name;
